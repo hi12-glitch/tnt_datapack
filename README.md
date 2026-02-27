@@ -9,7 +9,6 @@ Adds two special fishing rods:
 
 - Targeted for **Minecraft Java 1.21.x**.
 - `pack.mcmeta` is configured with `pack_format: 48` and supported range `48..61` for 1.21 series compatibility.
-- Rod items and detection now use **1.21 item components** (`minecraft:custom_model_data`) syntax.
 
 ## Installation
 
@@ -33,8 +32,3 @@ If `/datapack list` shows the pack as enabled but `/function tnt_rod:items/give_
 - Run `/reload` again.
 - Confirm `pack.mcmeta` and `data/` are directly at the datapack root (not nested one folder deeper).
 - Re-copy the pack folder and retry.
-
-If `/function tnt_rod:items/give_rods` runs but no rods appear:
-
-- Make sure cheats/operator permissions allow `/give`.
-- Run from player chat (so `@s` is your player), not from server console.
