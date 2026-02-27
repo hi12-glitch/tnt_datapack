@@ -1,0 +1,3 @@
+give @s minecraft:fishing_rod{CustomModelData:7001,display:{Name:'{"text":"TNT Drill Rod","italic":false,"color":"red"}',Lore:['{"text":"Right-click to fire a TNT charge","italic":false,"color":"gray"}','{"text":"that tunnels downward toward bedrock.","italic":false,"color":"dark_gray"}']},Enchantments:[{}],HideFlags:1}
+
+give @s minecraft:fishing_rod{CustomModelData:7002,display:{Name:'{"text":"Nuke Rod","italic":false,"color":"dark_red"}',Lore:['{"text":"Right-click to call an orbital TNT ring.","italic":false,"color":"gray"}','{"text":"Massive blast zone - use carefully.","italic":false,"color":"dark_gray"}']},Enchantments:[{}],HideFlags:1}
