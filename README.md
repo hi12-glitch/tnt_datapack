@@ -5,6 +5,11 @@ Adds two special fishing rods:
 - **TNT Drill Rod**: fires a TNT drill that repeatedly explodes downward until bedrock.
 - **Nuke Rod**: calls in a large orbital-style TNT ring strike at the bobber location.
 
+## Minecraft Version Support
+
+- Targeted for **Minecraft Java 1.21.x**.
+- `pack.mcmeta` is configured with `pack_format: 48` and supported range `48..61` for 1.21 series compatibility.
+
 ## Installation
 
 1. Zip this datapack folder (or keep it as an unzipped folder).
@@ -17,6 +22,13 @@ Adds two special fishing rods:
 
 ## Notes
 
-- Designed around modern Java Edition command syntax.
 - In multiplayer, targeting uses the **caster's nearest bobber** within 32 blocks.
-  
+- The pack includes both legacy `functions/` and newer `function/` datapack paths for compatibility across game patch versions.
+
+## Troubleshooting
+
+If `/datapack list` shows the pack as enabled but `/function tnt_rod:items/give_rods` says unknown function:
+
+- Run `/reload` again.
+- Confirm `pack.mcmeta` and `data/` are directly at the datapack root (not nested one folder deeper).
+- Re-copy the pack folder and retry.
