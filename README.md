@@ -38,8 +38,6 @@ If `/function tnt_rod:give_rods` runs but no rods appear:
 
 - Make sure cheats/operator permissions allow `/give`.
 - Run from player chat (so `@s` is your player), not from server console.
-- If your inventory is full, Minecraft may drop the items on the ground near you.
-- Run `/clear @s minecraft:fishing_rod` once if needed, then run the give command again.
  
 
 
