@@ -1,0 +1,4 @@
+# Give rods to all online players (1.21 custom_model_data component format)
+give @a minecraft:fishing_rod[minecraft:custom_name='{"text":"TNT Drill Rod","italic":false,"color":"red"}',minecraft:lore=['{"text":"Right-click to fire a TNT charge","italic":false,"color":"gray"}','{"text":"that tunnels downward toward bedrock.","italic":false,"color":"dark_gray"}'],minecraft:custom_model_data={floats:[7001f]},minecraft:enchantment_glint_override=true] 1
+
+give @a minecraft:fishing_rod[minecraft:custom_name='{"text":"Nuke Rod","italic":false,"color":"dark_red"}',minecraft:lore=['{"text":"Right-click to call an orbital TNT ring.","italic":false,"color":"gray"}','{"text":"Massive blast zone - use carefully.","italic":false,"color":"dark_gray"}'],minecraft:custom_model_data={floats:[7002f]},minecraft:enchantment_glint_override=true] 1
